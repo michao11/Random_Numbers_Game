@@ -67,6 +67,7 @@ public:
             cout << "Podaj index tablicy (0 - " << difficulty - 1 << "): ";
             int index = 0;
             cin >> index;
+            cout << endl;
 
             if (index < 0 || index >= difficulty || tab[index] != -1) {
                 cout << "Podano niepoprawny index. Koniec gry" << endl;
